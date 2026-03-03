@@ -17,3 +17,12 @@ int luasPersegi() {
     return p * l;
 }
 
+void output() {
+    cout << "Hasilnya = " << luasPersegi() << endl;
+    cout << "terima kasih";
+}
+
+int main() { //mulai
+    input();
+    output();
+} //selesai
